@@ -1,0 +1,15 @@
+my_dict = {}
+grades = {'Ana':'B','John':'A+','Denise':'A','Katy':'A'}
+
+# add an entry
+grades['Sylvan'] = 'A'
+
+# test if key in dictionary
+print('John' in grades)
+print('Someone' in grades)
+
+# delete entry
+del(grades['Ana'])
+
+print('John\'s grade is',grades['John'])
+print('john\'s grade is',grades['john'])
