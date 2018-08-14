@@ -1,3 +1,4 @@
+# singleton lists are written without that comma before the closing bracket.
 L = ['I did it all', 4, 'love']
 M = []
 for i in range(len(L)):
